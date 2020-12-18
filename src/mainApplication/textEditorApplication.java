@@ -7,6 +7,8 @@ import java.util.Scanner;
 import datamodel.buildingblocks.Document;
 import datamodel.buildingblocks.Document.DocumentRawType;
 import engine.Engine;
+import exporters.MarkdownExporter;
+import exporters.PdfExporter;
 
 public class textEditorApplication {
 	private Scanner reader;
